@@ -7,7 +7,7 @@
     url("../../img/header/header.png");
   filter: blur(0.1px);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .header__nav {
   display: flex;

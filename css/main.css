@@ -2,6 +2,8 @@
 @import "./header/header.css";
 @import "./excursion/excursion.css";
 @import "./about/about.css";
+@import "./type_excursions/type_excursions.css";
+@import "./footer/footer.css";
 
 /*----Шрифты----*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap");
