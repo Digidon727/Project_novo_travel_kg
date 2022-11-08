@@ -1,0 +1,40 @@
+@import "../main.css";
+.about {
+}
+.container {
+}
+.about__content {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  padding-right: calc((100% -));
+}
+
+.about__content-img {
+  max-height: 749px;
+  max-width: 1071px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-radius: 0px 10px 10px 0px;
+}
+
+.about__content-title {
+  position: absolute;
+  max-width: 542px;
+  padding: 61px 75px 85px 85px;
+  margin-top: 137px;
+  background: #ededed;
+  border-radius: 10px;
+}
+
+.about__content-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0499dd;
+  margin-bottom: 40px;
+}
+
+.about__content-title p {
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 20px;
+}

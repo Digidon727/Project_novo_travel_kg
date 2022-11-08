@@ -1,0 +1,14 @@
+.excursion {
+  padding: 153px 0 75px 0;
+}
+
+.excursion__slider-title {
+  color: #0499dd;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+.excursion__slider-card {
+  height: 580px;
+  background-color: blanchedalmond;
+}
