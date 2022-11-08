@@ -1,0 +1,21 @@
+.gallery {
+  /* padding-right: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
+  padding-left: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  ); */
+}
+
+.gallery__imgs {
+  display: inline-flex;
+  justify-content: space-between;
+  max-width: 500px;
+  max-height: 600px;
+}
+.gallery__img1 {
+}
+.gallery__img-2 {
+}
+.gallery__img-3 {
+}
