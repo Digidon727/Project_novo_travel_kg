@@ -3,6 +3,7 @@
 @import "./excursion/excursion.css";
 @import "./about/about.css";
 @import "./type_excursions/type_excursions.css";
+@import "./gallery/gallery.css";
 @import "./footer/footer.css";
 
 /*----Шрифты----*/
@@ -27,4 +28,5 @@ body {
   max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 var(--container-padding);
+  /* border: 2px solid red; */
 }

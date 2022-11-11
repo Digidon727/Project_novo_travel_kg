@@ -1,29 +1,36 @@
+@import "../main.css";
 .about {
-  padding: 100px 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../../img/about/about-bg.png");
-  border-radius: 0px 10px 10px 0px;
-  background-size: cover;
-  max-width: 1071px;
-  height: 749px;
+  /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),*/
+  /*  url("../../img/about/about-bg.png");*/
+  /*border-radius: 0px 10px 10px 0px;*/
+  /*background-size: cover;*/
+  /**/
+  /*padding-right: calc(*/
+  /*  (100% - var(--container-width)) / 2 + var(--container-padding)*/
+  /*);*/
+  margin-bottom: 150px;
   position: relative;
-  z-index: 0;
-  left: 0;
 }
-
+.img_about {
+  width: 1071px;
+  height: 749px;
+  /*float: left;*/
+}
 .about__content {
-  max-width: 100%;
-  display: inline-block;
+  /*max-width: 1180px;*/
+  /*margin:0 auto ;*/
+  /*position: relative;*/
   position: absolute;
-  right: -420px;
+  right: 10%;
+  top: 0;
 }
 
 .about__content-title {
-  max-width: 542px;
+  /*margin-left: -30%;*/
+  max-width: 512px;
   max-height: 476px;
   padding: 61px 75px 105px 85px;
   margin-top: 137px;
-
   background: #ededed;
   border-radius: 10px;
 }
