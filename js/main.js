@@ -3,7 +3,7 @@ $(document).ready(function () {
     arrows: true,
     dots: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     // autoplay: true,
     // speed: 1000,
     // autoplaySpeed: 800,
@@ -43,15 +43,15 @@ $(document).ready(function () {
         settings: {
           arrows: false,
           slidesToShow: 1,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
 
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],

@@ -42,6 +42,7 @@
 }
 /* Ограничивающая оболочка */
 .slick-list {
+  overflow: hidden;
 }
 /* Лента слайдов */
 .slick-track {
@@ -51,7 +52,6 @@
 /* Слайд */
 .slick-slide {
   max-width: 760px;
-  max-height: 322px;
 }
 /* Слайд активный */
 .slick-slide.slick-active {
@@ -136,7 +136,7 @@
 }
 
 .slider__item {
-  padding: 10px 2px;
+  padding: 2px -5px;
 }
 .slider__item img {
   max-width: 100%;

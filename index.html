@@ -298,14 +298,12 @@
       </a>
     </section>
 
-    <!--r -->
-    <div class="container">
-      <div class="types_excursions-title">
-        <h2>Галерея</h2>
-      </div>
-    </div>
+    <!--revirews-->
     <section class="reviews">
       <div class="container">
+        <div class="types_excursions-title">
+          <h2>Галерея</h2>
+        </div>
         <div class="reviews-cards">
           <div class="slider__item filter">
             <div class="reviews-card">
@@ -406,6 +404,78 @@
                 </p>
               </div>
             </div>
+          </div>
+          <div class="slider__item">
+            <div class="reviews-card">
+              <div class="reviews-card-img">
+                <img src="./img/rew/rew-1.png" alt="" />
+              </div>
+              <div class="reviews-card-info">
+                <h3>Иван Иванов, 25 лет</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Forms-->
+    <section class="forms">
+      <div class="container">
+        <div class="feedback">
+          <div class="feedback__content">
+            <div class="feedback__info">
+              <h1>Остались вопросы?</h1>
+              <p>Оставь заявку и мы ответим</p>
+            </div>
+            <form
+              action="#"
+              class="feedback__form"
+              id="feedback__form"
+              name="feedback__form"
+            >
+              <input
+                type="text"
+                placeholder="Имя"
+                class="feedback__form__input-box"
+                id="name"
+                name="name"
+                data-reg="^[А-ЯЁ][а-яё]*$"
+              />
+              <input
+                type="tel"
+                placeholder="Телефон"
+                class="feedback__form__input-box"
+                id="phone"
+                name="phone"
+                data-reg="^(\+)?((\d{2,3}) ?\d|\d)(([ -]?\d)|( ?(\d{2,3}) ?)){5,12}\d$"
+              />
+              <input
+                type="email"
+                placeholder="Почта"
+                class="feedback__form__input-box"
+                id="email"
+                name="email"
+                data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+              />
+              <input
+                type="submit"
+                value="Оставить заявку"
+                class="feedback__form__btn"
+                id="button"
+                name="button"
+              />
+            </form>
           </div>
         </div>
       </div>
