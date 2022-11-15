@@ -20,6 +20,10 @@
   border-radius: 10px;
   margin-right: 28px;
 }
+
+.reviews-card-info {
+  padding-left: 20px;
+}
 .reviews-card-info h3 {
   font-weight: 700;
   line-height: 17px;
@@ -142,4 +146,7 @@
   max-width: 100%;
 }
 .slider__item.slick-center {
+}
+
+@media (max-width: 768) {
 }
