@@ -18,6 +18,10 @@
   --container-padding: 30px;
 }
 
+.display_none {
+  display: none !important;
+}
+
 body {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -27,13 +31,9 @@ body {
   /* font-family: 'mr_KindlyJasmineG', arial; */
 }
 
-.display_none {
-  display: none !important;
-}
-
 .container {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
   /* border: 2px solid red; */
 }

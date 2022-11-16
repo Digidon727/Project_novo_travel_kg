@@ -1,7 +1,7 @@
 /* ---------------------<!--Header__NAV-->----------------------- */
 
 .header {
-  padding-top: 30px;
+  padding-top: 20px;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.35),
@@ -21,7 +21,7 @@
 .header__nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 152px;
   padding-top: 17px;
 }
@@ -99,6 +99,46 @@
   margin-top: 95px;
 }
 
+@media (max-width: 768px) {
+  .header__nav-list {
+    display: none;
+  }
+
+  .nav_button {
+    display: block;
+    position: fixed;
+    z-index: 9;
+    top: 46px;
+    right: 30px;
+  }
+
+  .header__nav_item-list {
+    color: #000;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .header_content_info-title-text1 {
+    font-size: 48px;
+  }
+  .header_content_info-title-text2 {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 468px) {
+  .header_content_info-title-text1 {
+    font-size: 44px;
+  }
+  .header_content_info-title-text2 {
+    margin-left: 200px;
+    font-size: 35px;
+  }
+
+  .header_content_info-title-text3 {
+    font-size: 76px;
+  }
+}
+
 @media (max-width: 850px) {
   .header_content_info-title-text1 {
     font-size: 62px;
@@ -130,6 +170,14 @@
 }
 
 @media (max-width: 580px) {
+  .header {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
+      ),
+      url("../../img/header/header4.png");
+  }
   .container {
     width: 100%;
   }
@@ -163,6 +211,14 @@
 }
 
 @media (max-width: 400px) {
+  .header {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
+      ),
+      url("../../img/header/header3.png");
+  }
   .header_content_info-title-text1 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -174,6 +230,7 @@
 
   .header_content_info-title-text3 {
     font-size: 70px;
+    line-height: 65px;
   }
 
   .header_content_info-social {
@@ -182,14 +239,22 @@
 }
 
 @media (max-width: 320px) {
+  .header {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
+      ),
+      url("../../img/header/header2.png");
+  }
   .header_content_info-title-text1 {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .header_content_info-title-text2 {
     font-size: 25px;
     margin-left: 130px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .header_content_info-title-text3 {
