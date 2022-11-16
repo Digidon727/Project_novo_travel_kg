@@ -9,7 +9,15 @@ $(document).ready(function () {
     // autoplaySpeed: 800,
     responsive: [
       {
-        breakpoint: 760,
+        breakpoint: 840,
+        settings: {
+          arrows: false,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
         settings: {
           arrows: false,
           slidesToShow: 1,
@@ -98,7 +106,7 @@ for (let anchor of anchors) {
     /*В открытом меню удаляет  класс open и закрываю меню и плавно переносит в определенную секцию*/
     if (nav.classList.contains("open")) {
       nav.classList.remove("open");
-      navBtnImg.src = "./img/icons/nav-open.svg";
+      navBtnImg.src = "./img/header/nav-open.svg";
     }
   });
 }
