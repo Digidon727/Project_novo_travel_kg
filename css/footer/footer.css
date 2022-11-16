@@ -15,6 +15,14 @@
   flex-direction: column;
   row-gap: 15px;
 }
+
+.footer_info-logo {
+  display: block;
+
+  content: "";
+  width: 125px;
+  height: 125px;
+}
 .footer__tel-wt {
   display: flex;
   column-gap: 15px;

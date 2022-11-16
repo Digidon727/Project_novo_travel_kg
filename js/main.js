@@ -9,11 +9,11 @@ $(document).ready(function () {
     // autoplaySpeed: 800,
     responsive: [
       {
-        breakpoint: 840,
+        breakpoint: 760,
         settings: {
           arrows: false,
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
 
